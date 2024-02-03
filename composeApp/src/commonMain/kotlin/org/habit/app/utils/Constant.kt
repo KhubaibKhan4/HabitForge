@@ -6,6 +6,7 @@ object Constant {
     const val FOREST_URL = ""
     const val DOULINGO_URL = ""
     const val GOOD_READ_URL = "https://www.goodreads.com/api"
+    const val GOOGLE_CHAT_URL = ""
 }
 
 /*
