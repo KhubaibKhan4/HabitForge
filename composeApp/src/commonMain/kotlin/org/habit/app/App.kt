@@ -88,8 +88,12 @@ internal fun App() = AppTheme {
             ),
             trailingIcon = {
                 IconButton(onClick = { passwordVisibility = !passwordVisibility }) {
-                    val imageVector = if (passwordVisibility) Icons.Default.Close else Icons.Default.Edit
-                    Icon(imageVector, contentDescription = if (passwordVisibility) "Hide password" else "Show password")
+                    val imageVector =
+                        if (passwordVisibility) Icons.Default.Close else Icons.Default.Edit
+                    Icon(
+                        imageVector,
+                        contentDescription = if (passwordVisibility) "Hide password" else "Show password"
+                    )
                 }
             }
         )
